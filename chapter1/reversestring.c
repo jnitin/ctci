@@ -20,4 +20,6 @@ void main()
         printf("Input String: %s\n",string);
 
 	printf("Reversed String: %s\n",ptr);
+        free(ptr);
+        ptr = NULL;
 }
